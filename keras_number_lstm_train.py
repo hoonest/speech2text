@@ -38,7 +38,7 @@ print("x_train, ytrain vector size is ", x_train.shape, "=====", y_train.shape)
 
 # 3. 모델 구성하기
 model = Sequential()
-model.add(LSTM(128, input_shape=(8192,1)))
+model.add(LSTM(64, input_shape=(8192,1)))
 model.add(Dense(one_hot_vec_size, activation='softmax'))
 
 # 4. 모델 학습과정 설정하기
