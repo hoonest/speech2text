@@ -36,7 +36,6 @@ model.fit(X, Y,n_epoch=5,show_metric=True,snapshot_step=100)
 print("================= TEST 결과 ================")
 
 path = "data/number_test/"
-#path = "data/spoken_numbers_test/"
 files = os.listdir(path)
 print("loaded Test batch of %d files" % len(files))
 for wav in files:
