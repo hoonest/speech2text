@@ -3,6 +3,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/layer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/layer_" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tensorpeers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tensorpeers_" vcs="Git" />
   </component>
 </project>

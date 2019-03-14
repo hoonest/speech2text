@@ -5,6 +5,7 @@ import pyaudio
 import speech_data
 import numpy
 import os
+import tensorflow as tf
 
 # Simple spoken digit recognition demo, with 98% accuracy in under a minute
 
